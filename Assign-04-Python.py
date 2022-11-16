@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 # Created By: Nathan A
-# Date: Nov. 13, 2022
-# This program asks the user for the amount of numbers they want to add up it then adds up the numbers they enter and display its
+# Date: Nov. 15, 2022
+# This program asks the user for 2 numbers, it then calculates the lowest common multiple
 
 
 def main():
