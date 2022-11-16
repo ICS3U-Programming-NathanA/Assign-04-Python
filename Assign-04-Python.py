@@ -14,7 +14,7 @@ def main():
     list_product_2 = []
     list_lowest_num = []
 
-    # Gets the frist integer
+    # Gets the first integer
     user_num_one_str = input("Enter a integer: ")
 
     # Gets the second integer
