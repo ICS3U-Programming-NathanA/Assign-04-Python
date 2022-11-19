@@ -37,7 +37,7 @@ def main():
         # Adds 1 to the greatest_num
         greatest_num = greatest_num + 1
         # If statement to see if the integer the user entered is positive
-        if user_num_one_int > 0:
+        if user_num_one_int > 0 and user_num_two_int > 0:
             # for loop to calculate the product of all of the numbers times the counter until the counter reaches the greatest_num
             for counter in range(greatest_num):
                 product_2 = user_num_two_int * counter
@@ -57,7 +57,7 @@ def main():
                     # Adds 1 to the counter
                     counter = counter + 1
             # displays the final result
-            print("The least common multiple is {}".format(lcm))
+            print("The lowest common multiple is of {} and {} is {}".format(user_num_two_int, user_num_one_int, lcm))
         else:
             print("Enter a positive integer")
 
